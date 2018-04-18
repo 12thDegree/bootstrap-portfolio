@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="style.css">
+<title>Bootstrap Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <div class="logo">
+                <a href="#">Kevin Crook</a>
+            </div>
+            
+            <!-- Puts links behind a buttom below threshhold (think mobile) -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- I want the group of three links on the right -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                <!-- tryoing to get things to float right.. ml-auto is baked into bootstrap and will put stuff on the right side attached the the <ul> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                </ul>
+            </div>     
+        </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- FORM contact form-->
+        <div class="row">
+            <div class="col-md-8 bordered"  style="background:whitesmoke; padding: 2%;">
+                <h1>Contact</h1>
+                    Name
+                <div style="border: solid 1px slategray; font-size: .8em; padding-left: .5em;">
+                    John Smith
+                </div >
+                    Email
+                <div style="border: solid 1px slategray; font-size: .8em; padding-left: .5em;">
+                    example@geemail.con
+                </div>
+            </div>
+            <!-- Responsive images
+Images in Bootstrap are made responsive with .img-fluid. max-width: 100%; and height: auto; are applied to the image so that it scales with the parent element. -->
+<!-- <img src="..." class="img-fluid" alt="Responsive image"> -->
+            <div class="col-md-4 socialmedia bordered-bottom" >
+                <h2>Connect with Me</h2>
+                <div class="text-center" style="position: relative;">
+                    <img src="http://via.placeholder.com/80x80"  class="img-fluid" alt="Social Link">
+                    <img src="http://via.placeholder.com/80x80"  class="img-fluid" alt="Social Link">
+                    <img src="http://via.placeholder.com/80x80"  class="img-fluid" alt="Social Link">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 bordered" style="background: whitesmoke; padding-bottom: 3%;">
+                Message
+                <div class="messagebox">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <!-- <div class="container"> -->
+            &copy Paradigm Lost Studio
+        <!-- </div> -->
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

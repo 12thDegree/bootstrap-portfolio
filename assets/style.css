@@ -1,0 +1,106 @@
+
+body {
+    background-color: slategray;
+    /* width: 100%;
+    height: 100%; */
+
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    margin-bottom: 3%;
+    background: salmon;
+    border-bottom: solid 2px black;
+}
+    header .container {
+        height: 100%;
+        padding: 0;
+    }
+        .navbar {
+            overflow: hidden;
+            padding: 0px;
+            margin: 0 auto;
+            height: 100%;
+            /* width: 980px; */
+        }
+        .navbar ul {
+            padding-right: 10px;
+        }
+        /* NAVBAR UL -- insert code for | between from my basic-port. project */
+        /* .logo a styling is to have full background fill for logo area */
+        .logo a {
+            background-color: blue;
+            font-size: 45px;
+            line-height: 100%;
+            /* margin-left: 0px; */
+            padding: 20px;   
+        }
+
+.container  {
+    margin: 0 auto; 
+    padding: 20px;
+    font-size: 1.25em;
+    /* margin-top: 75px; */
+    background: cadetblue;
+}
+    .container h1 {
+        border-bottom: solid 2px black;
+        margin-bottom: 3%;
+    }
+    .container h2 {
+        border-bottom: solid 2px black;
+        margin-bottom: 10%;
+    }
+    .card-title {
+        
+        margin-top: 40%;
+        
+        padding: 7px;
+        background: teal;
+        color: #eee;
+        text-align: center;
+    }
+    .card-img-overlay {
+        padding: 0;
+    }
+    .socialmedia {
+        background: beige;
+        
+    }
+        .socialmedia img {
+            /* width: 20%; */
+            margin: 1.2%;
+            /* display: block; */
+        }
+        .socialmedia h2 {
+            background:#ffffff;
+            padding-top: 2%;
+        }
+    .messagebox {
+        height: 15em;
+        background: #ffffff;
+        border: solid 1px black;
+    }
+    .bordered {
+        border: solid .5em red;
+        box-sizing: border-box;
+        border-width: 0em .5em;
+     }
+     .bordered-bottom {
+        border: solid .5em red;
+        box-sizing: border-box;
+        border-width: 0em .5em 1em;
+     }
+
+footer {
+    position: fixed; 
+    width: 100%;
+    height: 5%;
+    padding-top: 30px;
+    margin-top: 5%;
+    bottom: 0;
+    border-top: solid 2px teal;
+    background: #666666;
+    text-align:center; color: #eee;
+}
